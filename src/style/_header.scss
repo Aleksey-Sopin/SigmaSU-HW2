@@ -1,0 +1,100 @@
+@import "../fonts";
+.header {
+    max-width: 90rem;
+    margin: 0 auto;
+ }
+ .header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.9375rem 8.375rem 1.475rem 8.8125rem;
+    margin: 0 auto;
+ }
+.nav-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__menu-list { 
+        display: flex;
+        justify-content: space-between;
+        gap: 3.875rem;
+    }
+    &__nav-buttons {
+        padding-left: 5.375rem;
+        gap: 3.25rem;
+        display: flex;
+        justify-content: space-between;
+     }
+    &__nav-languages {
+        padding-left: 2.625rem;
+     }
+ }
+.menu-list__menu-item:hover{
+    transform: scale(1.1);
+    color: #F1A501;
+
+}
+.menu-list__menu-link{
+    &:hover{
+        color: #F1A501;
+    }
+}
+.menu-list__menu-link { 
+    font-family: 'Google-Sans';
+    font-weight: 400;
+    font-size: $headerLinkFontSize;
+    line-height: 1.375rem;
+    color: #212832;
+}
+.nav-buttons { 
+    justify-content: center;
+    &__login{
+        background: transparent;
+        font-family: 'Google-Sans';
+        font-weight: 500;
+        font-size: $headerLinkFontSize;
+        line-height: 1.375rem;
+        color: #212832;
+        &:hover{
+            transform: scale(1.1);
+            color: #F1A501;
+        }
+    }
+    &__Singup{
+        padding: 0.5625rem 1.375rem;
+        border: 1px solid #212832;
+        border-radius: 5px;
+        background: transparent;
+        font-family: 'Google-Sans';
+        font-weight: 500;
+        font-size: $headerLinkFontSize;
+        line-height: 1.375rem;
+        color: #212832;
+        &:hover{
+            transform: scale(1.1);
+            color: #F1A501;
+            text-shadow: #ddeafc 2px 2px 0.9375rem;
+            border-color: #F1A501;;
+        }
+    }
+}
+.nav-languages__text { 
+    font-family: 'Google-Sans';
+    font-weight: 500;
+    font-size: $headerLinkFontSize;
+    line-height: 1.375rem;
+    color: #212832;
+    &:hover{
+        color: #F1A501;
+    }
+    &::after{
+        content: '';
+        width: 10px;
+        height: 6px;
+        display: inline-block;
+        background: url("../images/header/arrow-down.svg") no-repeat;
+        margin-left: 6.5px;
+        margin-bottom: 3px;
+        cursor: pointer;
+    }
+}

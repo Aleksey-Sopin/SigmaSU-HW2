@@ -1,0 +1,134 @@
+.footer {
+    width: 100%;
+    &__container {
+        max-width: 90rem;
+        margin: 0 auto;
+        background-image: url("src/images/footer/");
+     }
+    &__column-list {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10.375rem;
+     }
+    &__bottom-text { 
+        font-weight: 500;
+        font-size: 0.875em;
+        line-height: 124.5%;
+        text-align: center;
+        padding-top: 5.25rem;
+        padding-bottom: 5rem;
+        a{
+            color: #5E6282;
+        }
+    }
+ }
+.footer-logo-block {
+    margin-top: -27px;
+    padding-left: 5.1875rem;
+    &__logo { 
+        font-weight: 500;
+        font-size: 2.75em;
+        line-height: 4.125rem;
+        color: #181E4B;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 0.8125em;
+        line-height: 124.5%;  
+        max-width: 12.9375rem;      
+     }
+ }
+.footer-company-block {
+    &__title {
+        font-weight: 700;
+        font-size: 1.3125em;
+        line-height: 124.5%;
+        color: #080809;
+        padding-bottom: 2.125rem;
+     }
+    &__item {
+        padding-bottom: 0.75rem;
+     }
+    &__link {
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 124.5%;
+        color: #5E6282;
+     }
+ }
+.footer-contact-block { 
+    &__title {
+        font-weight: 700;
+        font-size: 1.3125em;
+        line-height: 124.5%;
+        color: #080809;
+        padding-bottom: 2.125rem;
+     }
+    &__item {
+        padding-bottom: 0.75rem;}
+    &__link {
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 124.5%;
+        color: #5E6282;
+     }
+}
+.footer-more-block { 
+    &__title { 
+        font-weight: 700;
+        font-size: 1.3125em;
+        line-height: 124.5%;
+        color: #080809;
+        padding-bottom: 2.125rem;
+    }
+    &__item {
+        padding-bottom: 0.75rem;
+     }
+    &__link { 
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 124.5%;
+        color: #5E6282;
+    }
+}
+.footer-functional-block {
+    padding-top: 0.9375rem;
+    &__icons {
+        display: flex;
+        gap: 1.25rem;
+        padding-bottom: 1.5625rem;
+     }
+    &__icon {      
+          &:hover{
+        transform: scale(1.1);
+        transition: all ease 0.3s;
+        }
+    }
+    &__text { 
+        font-weight: 500;
+        font-size: 1.25em;
+        line-height: 124.5%;
+        letter-spacing: 0.005em;
+        padding-bottom: 1rem;
+    }
+    &__apps {
+        display: flex;
+        gap: 0.4375rem;
+     }
+    &__google-app {
+        &:hover{
+            transform: scale(1.05);
+            transition: all ease 0.3s;
+        }
+     }
+    &__apple-store {
+        &:hover{
+            transform: scale(1.05);
+            transition: all ease 0.3s;
+        }
+     }
+ }
+ .footer a:hover{
+    color: #F1A501;
+    transition: all ease 0.2s;
+ }

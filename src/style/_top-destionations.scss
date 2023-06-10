@@ -1,0 +1,116 @@
+.top-destinatoins { 
+    padding-bottom: 12.5rem;
+    background-color: #fff;
+    width: 100%;
+    &__container { 
+        max-width: 90rem;
+        height: 100%;
+        margin: 0 auto;
+    }
+    &__subtitle {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.125em;
+        line-height: 1.6875rem;
+        text-align: center;
+     }
+    &__title {
+        font-family: 'Volkhov';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.125em;
+        line-height: 4rem;
+        text-align: center;
+        text-transform: capitalize;
+        color: #14183E;
+     }
+}
+.list-cards{
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10.5625rem;
+    padding-top: 3.75rem;
+    gap: 3.125rem;
+    &__item { 
+        position: relative;
+        width: 19.375rem;
+        height: 28.5625rem;
+        box-shadow: #57575707 0 4.375rem 2.1875rem;
+        border-radius: 1.6875rem;        
+        background-position: 50% 0;
+        background-repeat: no-repeat;
+        &:hover{
+            box-shadow: #00000010 5px 4.5rem 2.5rem;
+            transform: scale(1.05);
+            cursor: pointer;
+            transition: all ease .3s;
+        }
+    }
+    &__item-1{
+        background-image: url("../images/top destinations/kolizey.png");
+    }
+    &__item-2{
+        background-image: url("../images/top destinations/big-ben.png");
+    }
+    &__item-3{
+        background-image: url("../images/top destinations/church.png");
+    }
+    &__decor{
+        position: absolute;
+        top: 40%;
+        right: 7%;
+    }
+    &__plus-decor{
+        display: none;
+    }
+    &__item-content {
+        position: absolute;
+        bottom: 0;
+        width: 19.375rem;
+        height: 8.125rem;
+        background-color: #fff;
+        border-radius: 0  0 1.5rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        padding: 1.6875rem 1.25rem 2.625rem 1.25rem;
+     }
+     &__block-location{
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        padding-bottom: 1.25rem;
+     }
+    &__location {
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 124.5%;
+     }
+    &__price { 
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 124.5%;
+        padding-left: 10px;
+    }
+    &__days {
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 124.5%;
+        padding-bottom: 1rem;
+        &::before{
+            content: '';
+            display: inline-block;
+            width: 1.125rem;
+            height: 0.9375rem;
+            background-image: url("../src/images/top destinations/Navigation.svg");
+            background-repeat: no-repeat;
+            margin-right: 0.9375rem;
+        }
+     }
+}
+#plus-top{
+    display: none;
+}
+

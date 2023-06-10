@@ -1,0 +1,92 @@
+.we-offer-best-services {
+    width: 100%;
+    background-color: #fff;
+    &__container {
+        position: relative;
+        max-width: 90rem;
+        margin: 0 auto;
+        padding: 0 12.3125rem 12.5625rem 9.625rem;
+     }
+    &__subtitle {
+        font-weight: 600;
+        font-size: 1.125em;
+        line-height: 1.6875rem;
+        text-align: center;
+     }
+    &__title { 
+        font-family: 'Volkhov';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.125em;
+        line-height: 4rem;
+        text-align: center;
+        text-transform: capitalize;
+        color: #14183E;
+        padding-bottom: 4.75rem;
+    }
+}
+.we-offer-best-services__list-categoties {
+    display: flex;
+    justify-content: space-between;
+}
+.list-categoties{
+    &__item {
+        background: #fff;
+        position: relative;
+        max-width: 11.875rem;
+        height: 14.1875rem;  
+        text-align: center;
+        border-radius: 1.25rem;
+        padding-top: 2rem;
+        z-index: 1;
+        &:hover{
+            cursor: pointer;
+            box-shadow: #f0efef 0px 5rem 0.9375rem;
+            border-radius: 1.25rem;
+            transform: scale(1.1);
+            transition: all linear 0.3s;
+        }
+    }
+    &__item-active{
+        img{
+            margin-top: -2.1875rem;
+            min-width: 4.375rem;
+            padding-bottom: 0;
+        }
+    }
+    &__item-img{
+        padding-bottom: 1.875rem;
+     }
+    &__item-title {
+        background: #fff;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.25em;
+        line-height: 1.6875rem;
+        text-align: center;
+        color: #1E1D4C;
+        padding-bottom: 1rem;
+     }
+    &__item-text { 
+        background: #fff;
+        font-weight: 500;
+        font-size: 1em;
+        line-height: 1.5rem;
+        text-align: center;
+        border-radius: 1.25rem;
+        padding-bottom: 0.9375rem;
+    }
+}
+.rectangle{     
+    background: transparent;
+    position: fixed;
+    bottom: -30%;
+    left: -20%;
+    z-index: -1;
+}
+.we-offer-best-services__decor {
+    position: absolute;
+    top: -2%;
+    left: 90%;
+ }

@@ -1,0 +1,124 @@
+@media (max-width: 1283.98px){
+    .main-container{
+        max-width: 100%;
+    }
+    .main-content{
+        &__subtitle{
+            font-size: 1.2em;
+        }
+        &__title {
+            max-width: 25rem;
+            font-size: 3.5em;
+         }
+    }
+}
+// 
+@media (max-width: 1163.98px){
+    .main-container{
+        background-position: 85% 0%;
+        background-size: 60%;
+    }
+    .main__main-content{
+        padding-top: 3.5rem;
+        &__subtitle{
+            font-size: 1.1em;
+        }
+        &__title {
+            max-width: 20rem;
+         }
+    }
+}
+// 
+@media (max-width: 1098.98px){
+    .main-container{
+        background-size: 40%;
+    }
+    .main__main-content{
+        padding-top: 2rem;
+    }
+    .main-content{
+        &__subtitle{
+            font-size: 1em;
+        }
+        &__title {
+            max-width: 20rem;
+            font-size: 3rem;
+            line-height: 4rem;
+         }
+         &__text {
+            max-width: 20rem;
+         }
+    }
+    .main-img-block__plane-1-img{ 
+        top: 0%;
+        left: 50%;
+    }
+}
+// 
+@media (max-width: 759.98px){
+    .main {
+        max-width: 759.98px;
+        &__main-img-block {
+            display: none;
+         }
+    }
+    .main-container{
+        width: 100%;
+        background: #fff;
+        padding: 4.625rem 3.75rem 6.25rem 3.75rem;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .main__main-content{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        .main-content{
+            &__subtitle {
+                display: none;
+             }
+            &__title {
+                max-width: 21rem;
+                font-size: 3em;
+                line-height: 5.625rem;
+                padding-bottom: 1.25rem;
+                margin: 0 auto;
+             }
+            &__text {
+                display: none;
+             }
+        }
+    }
+    .content-buttons{
+        max-width: 10.625rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        &__button-action {
+            padding: 1.25rem 1.625rem;
+         }
+        &__button-play { 
+            margin-left: 3.125rem;
+            text-align: end;
+            &::before{
+                right: 70%;
+                top: -100%;
+            }
+        }
+    }
+    @keyframes planeMove {
+        0% {translate: 0%;}
+        50% {translate: 0%; rotate: 90deg;}
+        75%{translate: 0% 30%; transform: scale(70%);}
+        100%{translate: 600% 100%; transform: scale(500%);}
+     }
+     .main-img-block__plane-1-img{ 
+            position: absolute;
+            top: -2.5%;
+            left: -5%;
+        }
+    .main-img-block__plane-2-img {
+            display: none;
+    }
+}

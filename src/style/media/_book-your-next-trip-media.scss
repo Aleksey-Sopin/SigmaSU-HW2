@@ -1,0 +1,178 @@
+@media (max-width: 1175.98px){
+    .book-your-next-trip { 
+        &__container { 
+            padding: 0 0.6875rem 8rem 11.625rem;
+            flex-direction: row;
+            gap: 4rem;
+        }
+    }
+    .book-your-next-trip-content{
+        &__title {
+            max-width: 18rem; 
+            font-size: 2em;
+            line-height: 2.5rem;
+            padding: 0 0 1.875rem 0rem;
+        }
+    }
+    .item-steps {
+        &__content-block { 
+            max-width: 18rem;
+        }
+    }
+}
+// 
+@media (max-width: 1099.98px){
+    .book-your-next-trip { 
+        &__container { 
+            gap: 3rem;
+        }
+    }
+    .book-your-next-trip-content{
+        &__title{
+            padding-bottom: 1.5rem;
+        }
+        &__items{
+            gap: 2rem;
+        }
+    }
+    .item-steps {
+        &__content-block { 
+            max-width: 17rem;
+        }
+    }
+    .small-card-trip { 
+        display: none;
+    }
+}
+// 
+@media (max-width: 999.98px){
+    .book-your-next-trip { 
+        &__container { 
+            padding: 0 5rem 8rem 5rem;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    .card-trip { 
+        position: relative;
+        padding-top: 3.125rem;
+        &__card-block { 
+            max-width: 20rem;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+}
+//  
+@media (max-width: 759.98px){
+    .book-your-next-trip { 
+        width: 100%;
+        position: relative;
+        &__container { 
+            background: #fff;
+            margin: 0 auto;
+            width: 100%;
+            padding: 0 0.6875rem 5.875rem 1.0625rem;
+            flex-direction: column;
+            gap: 4rem;
+            justify-content: center;
+            align-items: center;
+
+        }
+    }
+    .book-your-next-trip-content{
+        text-align: center;
+        flex-direction: column;  
+        &__subtitle {
+            display: none;
+            }
+        &__title { 
+            width: 100%;
+            font-size: 2.5em;
+            line-height: 3.25rem;
+            padding: 0 0 4.375rem 0;
+            text-align: center;
+            margin: 0 auto;
+            span{
+                display: block;
+            }
+        }
+        &__items {
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+         }  
+    }
+    .item-steps {
+        display: flex;
+        gap: 1.25rem;
+        &__content-block { 
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+            max-width: 24.6875rem;
+        }
+        &__title {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1em;
+            line-height: 124.5%;
+         }
+        &__text { 
+            font-weight: 400;
+            font-size: 1em;
+            line-height: 124.5%;
+        }
+     }
+    .card-trip { 
+        position: relative;
+        padding-top: 3.125rem;
+        &__card-block { 
+            max-width: 18.875rem;
+            max-height: 22.0625rem;
+            padding: 1.0625rem 1.25rem 1.75rem 1.5625rem;
+        }
+        &__img{
+            max-width: 16.375rem;
+            max-height: 8.875rem; 
+            border-radius: 1px #000 solid;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+         }
+        &__title { 
+            font-size: 1.125em;
+            padding-top: 1.325rem;
+            padding-bottom: 0.8125rem;
+        }
+        &__description {
+            font-weight: 500;
+            font-size: 1em;
+            padding-bottom: 1.25rem;
+         }
+        &__icons { 
+            padding-bottom: 0.8125rem;
+            gap: 0.875rem;
+        }
+        &__bottom-block {
+            display: flex;
+            justify-content: space-between;
+         }
+        &__text {
+            font-size: 1em;
+         }
+    }
+    .small-card-trip { 
+        display: none;
+    }
+    #plus-bottom{
+        display: block;
+        position: absolute;
+        top: 84%;
+        right: 5%;
+        z-index: 2;
+    }
+}

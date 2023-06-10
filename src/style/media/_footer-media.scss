@@ -1,0 +1,95 @@
+@media (max-width:908.98px){
+    .footer li a{
+        font-size: 0.8em;
+    }
+    .footer-company-block__title{
+        font-size: 1em;
+    }
+    .footer-contact-block__title{
+        font-size: 1em;
+    }
+    .footer-more-block__title{
+        font-size: 1em;
+    }
+}
+// 
+@media (max-width: 759.98px){
+    .footer {
+        width: 100%;
+        background: #FFF1DA;
+        &__container {
+            max-width: 100%;
+            padding-top: 2.5rem;
+            padding-left: 5rem;
+            margin: 0 auto;
+         }
+        &__column-list {
+            flex-direction: column;
+            align-content: space-between;
+            align-items: start;
+            padding-top: 0;
+            gap: 2.5rem;
+
+         }
+        &__bottom-text { 
+            display: inline-block;
+            font-size: 0.875em;
+            padding-top: 0;
+            padding-left: 2.1875rem;
+            padding-bottom: 1.625rem;
+        }
+     }
+    .footer-logo-block {
+        padding-left: 0;
+        padding-bottom: 1.25rem;
+        &__logo{
+            padding-bottom: 1.25rem;
+        }
+     }
+    .footer-company-block {
+        &__title {
+            padding-bottom: 2rem;
+         }
+     }
+    .footer-contact-block { 
+        &__title {
+            padding-bottom: 2rem;
+         }
+    }
+    .footer-more-block { 
+        &__title {
+            padding-bottom: 2rem;
+         }
+    }
+    .footer-functional-block {
+        padding-left: 2.1875rem;
+        padding-top: 1rem;
+        padding-bottom: 3.5rem;
+        &__icons {
+            display: flex;
+            gap: 1.25rem;
+            padding-left: 1.5rem;
+            padding-bottom: 2.5rem;
+         }
+        &__apps {
+            display: flex;
+            gap: 0.4375rem;
+         }
+        &__google-app {
+            &:hover{
+                transform: scale(1.05);
+                transition: all ease 0.3s;
+            }
+         }
+        &__apple-store {
+            &:hover{
+                transform: scale(1.05);
+                transition: all ease 0.3s;
+            }
+         }
+     }
+     .footer a:hover{
+        color: #F1A501;
+        transition: all ease 0.2s;
+     }
+}

@@ -1,0 +1,52 @@
+@import "../reset.css";
+@import "../fonts.css";
+@import "_variables";
+//  
+// basic stayle
+html,body{
+    overflow-x:hidden;
+    font-family: Poppins, Georgia, 'Times New Roman';
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #fff;
+    color: #5E6282;
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+.wrapper{
+   background: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+// media
+// header
+@import "_header";
+@import "media/_header-media";
+// main
+@import "_main-page";
+@import "media/_main-page-media";
+// 
+@import "_we-offer-best-servoces";
+@import "media/we-offer-best-servoces-media";
+// 
+@import "_top-destionations";
+@import "media/top-destionations-media";
+// 
+@import "_book-your-next-trip";
+@import "media/book-your-next-trip-media";
+// 
+@import "_what-people-say";
+@import "media/what-people-say-media";
+// 
+@import "_partners";
+@import "media/partners-media";
+// 
+@import "_subscribe";
+@import "media/subscribe-media";
+// 
+@import "_footer";
+@import "media/footer-media";

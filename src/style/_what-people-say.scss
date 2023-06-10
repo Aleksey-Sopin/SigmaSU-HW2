@@ -1,0 +1,67 @@
+.what-people-say {
+    width: 100%;
+    background: #fff;
+    &__container {
+        max-width: 90rem;
+        padding: 0 13.5625rem 10.8125rem 11.625rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+     }
+    &__title-block { 
+        padding-right: 7.75rem;
+    }
+    &__subtitle {
+        font-weight: 600;
+        font-size: 1.125em;
+        line-height: 1.6875rem;
+        text-transform: uppercase;
+        padding-bottom: 0.5rem;
+     }
+    &__title { 
+        font-family: 'Volkhov';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.125em;
+        line-height: 4rem;
+        text-transform: capitalize;
+        color: #14183E;
+    }
+ }
+.comment-block {
+    position: relative;
+    max-width: 31.5rem;
+    max-height: 15.3125rem;
+    background: #fff;
+    padding: 1.75rem 4.25rem 2.125rem 2.125rem;
+    box-shadow: 0px 6.25rem 5rem rgba(0, 0, 0, 0.02), 
+                0px 4rem 0.875rem rgba(0, 0, 0, 0.0151852), 
+                0px 2.375rem 1.625rem rgba(0, 0, 0, 0.0121481), 
+                0px 1.25re 0.8125rem rgba(0, 0, 0, 0.01), 
+                0px 0.5rem 6.51852px rgba(0, 0, 0, 0.00785185), 
+                0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 0.625rem;
+    &__img { 
+        position: absolute;
+        top: -10%;
+        left: -8%;
+
+    } 
+    &__comment-text { 
+        font-weight: 500;
+        font-size: 1em;
+        line-height: 2rem;
+        padding-bottom: 2.125rem;
+    }
+    &__user-name {
+        font-weight: 600;
+        font-size: 1.125em;
+        line-height: 1.6875rem;
+        padding-bottom: 5px;
+     }
+    &__user-location { 
+        font-weight: 500;
+        font-size: 0.875em;
+        line-height: 1.3125rem;
+    }
+}

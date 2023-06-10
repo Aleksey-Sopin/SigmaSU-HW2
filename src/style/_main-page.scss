@@ -1,0 +1,118 @@
+.main {
+    background-image: url(../images/main/Ellipse-8.svg), url(../images/main/Decore.png);
+    background-position: -80% 0%, 118% 0%;
+    background-repeat: no-repeat, no-repeat;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    &__main-content{
+        padding: 8.125rem 0 0 0.5625rem;
+    }
+    &__main-img-block {
+     }
+}
+.main-container{
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    padding-left: 8.8125rem;
+    padding-bottom: 13.375rem;
+    display: flex;
+    background-image: url(../images/main/Traveller-1.png);
+    background-position: 85% 0%;
+    background-repeat: no-repeat;
+}
+.main-content{
+    &__subtitle {
+        font-weight: 700;
+        font-size: 1.25em;
+        line-height: 1.875rem;
+        text-transform: uppercase;
+        color: #DF6951;
+        padding-bottom: 1.5rem;
+     }
+    &__title {
+        max-width: 34.0625rem;
+        font-family: 'Volkhov';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5.25em;
+        line-height: 5.5625rem;
+        letter-spacing: -0.04em;
+        color: #181E4B;
+        padding-bottom: 1.875rem;
+     }
+    &__text {
+        max-width: 26.875rem;
+        font-weight: 500;
+        font-size: 1em;
+        line-height: 1.875rem;
+     }
+}
+.content-buttons{
+    padding-top: 2.125rem;
+    &__button-action {
+        font-family: 'Google-Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.125em;
+        line-height: 1.4375rem;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 1.125rem 1.625rem;
+        background: #F1A501;
+        box-shadow: 0px 1.25rem 2.1875rem rgba(241, 165, 1, 0.15);
+        border-radius: 0.625rem;
+        &:hover{
+            background-color: #fbc845;
+            transform: scale(1.05);
+            box-shadow: #a3a8b537 0px 10px 10px;
+            transition: all ease .3s;
+        }
+     }
+    &__button-play { 
+        position: relative;
+        background: #fff;
+        font-weight: 500;
+        font-size: $headerLinkFontSize;
+        line-height: 1.625rem;
+        color: #686D77;
+        margin-left: 6.5rem;
+        &::before{
+            content: '';
+            position: absolute;
+            right: 80%;
+            top: -105%;
+            width: 7rem;
+            height: 7rem;
+            background: url('../images/main/Play-button.svg') no-repeat;
+            display: inline-block;
+            cursor: pointer;
+        }
+        &:hover{
+            text-shadow: 2px 2px 10px #fbaeae;
+            transition: all ease .1s;
+        }
+    }
+}
+@keyframes planeMove {
+    0% {translate: 0%;}
+    25% {translate: -20%;}
+    50% {translate: -60%; rotate: 90deg;}
+    75%{translate: -110% 20%; transform: scale(70%);}
+    100%{translate: 600% 100%; transform: scale(500%);}
+ }
+
+.main-img-block__plane-1-img{ 
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        &:hover{
+           animation: planeMove linear 3s 1;
+        }
+    }
+.main-img-block__plane-2-img {
+        position: absolute;
+        top: 15%;
+        right: 5%;
+     }

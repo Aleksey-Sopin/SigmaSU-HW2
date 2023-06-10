@@ -1,0 +1,93 @@
+@media (max-width: 1265.98px){
+    .header-container{
+        padding: 2.3125rem 1.875rem 4rem 8rem;
+    }
+    .nav-block {
+        &__menu-list { 
+            gap: 1.75rem;
+        }
+        &__nav-buttons {
+            padding-left: 2.7rem;
+            gap: 2rem;
+        }
+    }
+}
+// 
+@media (max-width: 973.98px){
+    .logo img{
+        max-width: 5rem;
+        height: 2rem;
+        padding-right: 1rem;
+     }
+    .header-container{
+        font-size: 0.8em;
+        padding: 2.3125rem 1.875rem 5.625rem 6.5rem;
+    }
+    .nav-block {
+        &__menu-list { 
+            gap: 1.70rem;
+        }
+        &__nav-buttons {
+            gap: 1.3rem;
+        }
+        &__nav-languages{
+            padding-left: 1rem;
+        }
+    }
+}
+// 
+@media (max-width:759.98px){
+    .header {
+        background-color: #FFF1DA;
+    }
+    .header-container{
+        position: relative;
+        padding: 2.3125rem 2.5rem 5.625rem 3.125rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .logo {
+        max-width: 7.1875rem;
+        height: 2.125rem;
+     }
+    .nav-block {
+        padding-top: 5.625rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        &__menu-list { 
+            display: flex;
+            flex-direction: column;
+            gap: 1.875rem;
+        }
+        &__nav-buttons {
+            display: none;
+        }
+        &__nav-languages {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            top: 8%;
+            right: 8%;
+            padding: 0;
+            &::after{
+                content: "";
+                width: 1.5rem;
+                height: 0.875rem;
+                display: inline-block;
+                background-image: url("/src/images/header/icn-menu.svg");
+                background-repeat: no-repeat;
+                background-position: 0 0;
+                margin-left: 1.25rem;
+            }
+        }
+    }
+    .menu-list__menu-link { 
+        font-size: 1.875em;
+        line-height: 2.8125rem;
+        color: #737373;
+    }
+}
