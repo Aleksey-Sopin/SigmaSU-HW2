@@ -27,10 +27,10 @@ html, body {
 }
 
 @font-face {
-  font-family: "Google-Sans";
+  font-family: "Google-Sans", "Times New Roman";
   font-weight: 500;
   font-style: normal;
-  src: url("fonts/GoogleSans-Medium.ttf") format(truetype);
+  src: url("../fonts/GoogleSans-Medium.ttf") format(truetype);
 }
 .header {
   max-width: 90rem;
@@ -903,7 +903,7 @@ html, body {
   display: inline-block;
   width: 1.125rem;
   height: 0.9375rem;
-  background-image: url("../src/images/top destinations/Navigation.svg");
+  background-image: url("../images/top destinations/Navigation.svg");
   background-repeat: no-repeat;
   margin-right: 0.9375rem;
 }
@@ -1864,7 +1864,7 @@ progress {
 .footer__container {
   max-width: 90rem;
   margin: 0 auto;
-  background-image: url("src/images/footer/");
+  background-image: url("../images/footer/");
 }
 .footer__column-list {
   display: -webkit-box;
